@@ -118,4 +118,9 @@ namespace caze { namespace graphics {
 	{
 		glUseProgram(0);
 	}
+
+	GLuint Shader::getShader() const
+	{
+		return m_ShaderID;
+	}
 } }

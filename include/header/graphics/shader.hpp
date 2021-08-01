@@ -28,6 +28,7 @@ namespace caze { namespace graphics {
 
 		void enable() const;
 		void disable() const;
+		GLuint getShader() const;
 	private:
 		GLuint load();
 	};
