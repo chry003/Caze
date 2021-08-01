@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "bin/.."
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "Debug",
+			"working_dir": "${project_path}",
+			"cmd": ["./build.sh"],
+			"selector": "source.c++",
+			"shell": true
+		}
+	]
+}
