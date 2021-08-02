@@ -2,7 +2,13 @@
 
 layout (location = 0) out vec4 color;
 
+uniform vec4 sh_color;
+uniform vec2 light_pos;
+
+in vec4 pos;
+
 void main()
 {
-	color = vec4(1.0f, 0.7f, 0.8f, 1.0f);
+	float intensity = 1.0 / length(pos.xy - light_pos);
+	color = sh_color * intensity;
 }

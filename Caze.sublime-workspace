@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"m_Frag",
+				"m_FragPath"
+			],
+			[
+				"vertexsha",
+				"VertexShaderErrorMessage"
+			],
+			[
 				"program",
 				"ProgramID"
 			],
@@ -506,14 +514,6 @@
 			[
 				"to",
 				"top"
-			],
-			[
-				"bo",
-				"bottom"
-			],
-			[
-				"collitions",
-				"collitions"
 			]
 		]
 	},
@@ -573,6 +573,26 @@
 	},
 	"file_history":
 	[
+		"/home/rahul/Development/c++/Caze/Caze/test/caze_shader_load_test.cpp",
+		"/home/rahul/Development/c++/Caze/Caze/.gitattributes",
+		"/home/rahul/Downloads/ogl-master/common/shader.cpp",
+		"/home/rahul/Development/c++/Caze/Caze/test/triangle_working_code.cpp",
+		"/home/rahul/Development/c++/Caze/Caze/src/classes/utils/fileutils.cpp",
+		"/home/rahul/Development/c++/Caze/Caze/include/lib/glad/glad.h",
+		"/home/rahul/Development/c++/Caze/Caze/include/header/caze.hpp",
+		"/home/rahul/Development/c++/Caze/Caze/include/header/utils/fileutils.hpp",
+		"/home/rahul/Development/c++/Caze/Caze/src/classes/graphics/window.cpp",
+		"/home/rahul/Development/c++/Caze/Caze/example/vector_maths.cpp",
+		"/home/rahul/Development/c++/Caze/Caze/src/classes/maths/mat4.cpp",
+		"/home/rahul/Development/c++/Caze/Caze/src/classes/maths/vec4.cpp",
+		"/home/rahul/Development/c++/Caze/Caze/src/classes/maths/vec3.cpp",
+		"/home/rahul/Development/c++/Caze/Caze/src/classes/maths/vec2.cpp",
+		"/home/rahul/Development/c++/Caze/Caze/include/header/maths/maths_utils.hpp",
+		"/home/rahul/Development/c++/Caze/Caze/include/header/maths/maths.hpp",
+		"/home/rahul/Development/c++/Caze/Caze/include/header/maths/mat4.hpp",
+		"/home/rahul/Development/c++/Caze/Caze/include/header/maths/vec4.hpp",
+		"/home/rahul/Development/c++/Caze/Caze/include/header/maths/vec3.hpp",
+		"/home/rahul/Development/c++/Caze/Caze/include/header/maths/vec2.hpp",
 		"/home/rahul/Development/c++/Quat/LICENSE",
 		"/home/rahul/Development/c++/Quat/build.sh",
 		"/home/rahul/Development/c++/quat_glfw/dump/main.cpp",
@@ -666,6 +686,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"VertexArrayID",
+			"fragment_file_path",
+			"vertex_file_path",
+			"\t{"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -697,11 +721,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -711,6 +742,10 @@
 		]
 	},
 	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 124.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -755,7 +790,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 233.0,
+	"side_bar_width": 244.0,
 	"status_bar_visible": false,
 	"template_settings":
 	{

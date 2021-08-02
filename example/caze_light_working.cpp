@@ -3,9 +3,9 @@
 int main(int argc, char const *argv[])
 {
 	
-	Window window("Caze", 950, 600);
+	Window window("Caze", 800, 600);
 
-	// glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+	glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
 
 	GLfloat vertices[] = 
 	{
@@ -43,9 +43,9 @@ int main(int argc, char const *argv[])
 	shader.setUniformMat4("pr_matrix", ortho);
 	shader.setUniformMat4("ml_matrix", mat4::translation(vec3(4, 3, 0)));
 
-	shader.setUniform2f("light_pos", vec2(4.0f, 1.5f));
+	shader.setUniform2f("light_pos", vec2(7.0f, 4.5f));
 
-	shader.setUniform4f("sh_color", vec4(0.2f, 0.2f, 0.2f, 1.0f));
+	shader.setUniform4f("sh_color", vec4(0.3f, 0.1f, 0.6f, 1.0f));
 
 	while(!window.closed())
 	{
