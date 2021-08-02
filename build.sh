@@ -27,7 +27,22 @@ dirs=(./src/classes/*/)
 
 for dir in "${dirs[@]}"
 do
-	cp $dir* './bin/target/exec'
+	dirs2=($dir*/)
+
+	for dir2 in "${dirs2[@]}"
+	do
+		if [ -d $dir2 ]; then
+			cp $dir2* './bin/target/exec'
+		fi
+	done
+
+	dirs3=($dir*)
+	for dir3 in "${dirs3[@]}"
+	do
+		if [[ -f $dir3 ]]; then
+			cp $dir3 './bin/target/exec'
+		fi
+	done
 done
 
 # copy main file
@@ -48,27 +63,3 @@ rm ./bin/target/cple/*
 
 # Run
 ./bin/debug/main
-
-# folder structure
-fldstr="
-[] project_path
-	[] bin
-		[] debug
-			[] ...
-		[] release
-			[] ...
-		[] target
-			[] exec
-				[] ...
-			[] cple
-				[] ...
-	[] include
-		[] lib
-			[] ...
-		[] header
-			[] ...
-	[] src
-		[] classes
-			[] ...
-		[] ...
-"
