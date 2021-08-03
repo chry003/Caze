@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"dir",
+				"dir3"
+			],
+			[
+				"dirs",
+				"dirs3"
+			],
+			[
 				"m_Frag",
 				"m_FragPath"
 			],
@@ -506,14 +514,6 @@
 			[
 				"sp",
 				"speed"
-			],
-			[
-				"move",
-				"movement"
-			],
-			[
-				"to",
-				"top"
 			]
 		]
 	},
@@ -529,16 +529,16 @@
 		"selected_items":
 		[
 			[
+				"vi",
+				"View: Toggle Menu"
+			],
+			[
 				"view",
 				"View: Toggle Menu"
 			],
 			[
 				"vew",
 				"View Package File"
-			],
-			[
-				"vi",
-				"View: Toggle Menu"
 			],
 			[
 				"pack",
@@ -573,6 +573,16 @@
 	},
 	"file_history":
 	[
+		"/home/rahul/Development/c++/Caze/Caze/example/buffer_working.cpp",
+		"/home/rahul/Development/c++/Caze/Caze/build.sh",
+		"/home/rahul/Development/c++/Caze/Caze/src/classes/graphics/buffers/test.cpp",
+		"/home/rahul/Development/c++/Caze/Caze/include/header/graphics/buffers/test.cpp",
+		"/home/rahul/Development/c++/Caze/Caze/include/header/graphics/test.cpp",
+		"/home/rahul/Development/c++/Caze/Caze/src/classes/graphics/shader.cpp",
+		"/home/rahul/Development/c++/Caze/Caze/include/header/graphics/shader.hpp",
+		"/home/rahul/Development/c++/Caze/Caze/src/classes/shaders/basic.vert",
+		"/home/rahul/Development/c++/Caze/Caze/src/classes/shaders/basic.frag",
+		"/home/rahul/Development/c++/Caze/Caze/example/caze_light_working.cpp",
 		"/home/rahul/Development/c++/Caze/Caze/test/caze_shader_load_test.cpp",
 		"/home/rahul/Development/c++/Caze/Caze/.gitattributes",
 		"/home/rahul/Downloads/ogl-master/common/shader.cpp",
@@ -686,6 +696,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"0f",
+			"light_pos",
+			"GLchar",
 			"VertexArrayID",
 			"fragment_file_path",
 			"vertex_file_path",
