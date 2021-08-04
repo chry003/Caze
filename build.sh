@@ -1,25 +1,16 @@
-if [ ! -d "./src/" ]; then
-	mkdir src
-	mkdir src/classes
-fi
-
-if [ ! -d "./bin" ]; then
+if [ ! -d "./bin/debug" ]; then
 	mkdir bin
 	mkdir bin/debug
+fi
+
+if [ ! -d "./bin/release" ]; then
 	mkdir bin/release
+fi
+
+if [ ! -d "./bin/target" ]; then
 	mkdir bin/target
 	mkdir bin/target/exec
 	mkdir bin/target/cple
-fi
-
-if [ ! -d "./include" ]; then
-	mkdir include
-	mkdir include/header
-	mkdir include/lib
-fi	
-
-if [ ! -d "./test" ]; then
-	mkdir test
 fi
 
 # copy all the classes file

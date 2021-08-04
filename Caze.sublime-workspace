@@ -4,12 +4,16 @@
 		"selected_items":
 		[
 			[
-				"dir",
-				"dir3"
+				"di",
+				"dir"
 			],
 			[
 				"dirs",
-				"dirs3"
+				"dirs2"
+			],
+			[
+				"dir",
+				"dir3"
 			],
 			[
 				"m_Frag",
@@ -510,10 +514,6 @@
 			[
 				"colli",
 				"collitions"
-			],
-			[
-				"sp",
-				"speed"
 			]
 		]
 	},
@@ -529,11 +529,11 @@
 		"selected_items":
 		[
 			[
-				"vi",
+				"view",
 				"View: Toggle Menu"
 			],
 			[
-				"view",
+				"vi",
 				"View: Toggle Menu"
 			],
 			[
@@ -573,6 +573,11 @@
 	},
 	"file_history":
 	[
+		"/home/rahul/Development/c++/Caze/Caze-core/main.cpp",
+		"/home/rahul/Development/c++/Caze/Caze.sublime-project",
+		"/home/rahul/Development/c++/Caze/Dependencies/Caze/caze.hpp",
+		"/home/rahul/Development/c++/Caze/scripts/CazeCoreDebug.sh",
+		"/home/rahul/Development/c++/Caze/Caze-core/src/utils/fileutils.cpp",
 		"/home/rahul/Development/c++/Caze/Caze/example/buffer_working.cpp",
 		"/home/rahul/Development/c++/Caze/Caze/build.sh",
 		"/home/rahul/Development/c++/Caze/Caze/src/classes/graphics/buffers/test.cpp",
@@ -734,18 +739,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -754,7 +752,7 @@
 			1.0
 		]
 	},
-	"menu_visible": false,
+	"menu_visible": true,
 	"output.exec":
 	{
 		"height": 124.0
@@ -763,7 +761,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Debug",
+	"pinned_build_system": "CazeCoreDebug",
 	"replace":
 	{
 		"height": 42.0

@@ -3,6 +3,8 @@
 #include "graphics/buffers/buffer.hpp"
 #include "graphics/buffers/indexBuffer.hpp"
 #include "graphics/buffers/vertexArray.hpp"
+#include "graphics/simple2drenderer.hpp"
+#include "graphics/renderer2d.hpp"
 
 #include "maths/maths.hpp"
 #include "utils/fileutils.hpp"
