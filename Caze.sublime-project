@@ -9,14 +9,7 @@
 		{
 			"name": "Debug",
 			"working_dir": "${project_path}",
-			"cmd": ["./build.sh"],
-			"selector": "source.c++",
-			"shell": true
-		},
-		{
-			"name": "Example",
-			"working_dir": "${project_path}",
-			"cmd": ["./exampleBuild.sh"],
+			"cmd": ["./Scripts/build.sh"],
 			"selector": "source.c++",
 			"shell": true
 		}
