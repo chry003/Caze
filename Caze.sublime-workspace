@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"RENDER",
+				"RENDERER_MAX_SPRITES"
+			],
+			[
+				"Com",
+				"Compiling"
+			],
+			[
+				"re",
+				"red"
+			],
+			[
 				"fil",
 				"files"
 			],
@@ -18,10 +30,6 @@
 			[
 				"fie",
 				"files"
-			],
-			[
-				"Com",
-				"compiled"
 			],
 			[
 				"com",
@@ -222,10 +230,6 @@
 			[
 				"p_",
 				"p_title"
-			],
-			[
-				"re",
-				"render_window"
 			],
 			[
 				"win",
@@ -510,25 +514,9 @@
 			[
 				"ge",
 				"get_action_strength"
-			],
-			[
-				"K",
-				"K_RIGHT"
 			]
 		]
 	},
-	"buffers":
-	[
-		{
-			"file": "Scripts/build.sh",
-			"settings":
-			{
-				"buffer_size": 2030,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
-	],
 	"build_system": "",
 	"build_system_choices":
 	[
@@ -583,17 +571,23 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/home/rahul/Development/c++/Caze",
-		"/home/rahul/Development/c++/Caze/Scripts"
-	],
 	"file_history":
 	[
-		"/home/rahul/Development/c++/Caze/Caze-Core/src/graphics/buffers/vertexArray.cpp",
-		"/home/rahul/Development/c++/Caze/include/Caze/graphics/renderable2d.hpp",
 		"/home/rahul/Development/c++/Caze/Scripts/build.sh",
+		"/home/rahul/Development/c++/Caze/Scripts/countLinesOfCode.sh",
+		"/home/rahul/Development/c++/Caze/Caze-Core/src/graphics/batchrenderer2D.cpp",
+		"/home/rahul/Development/c++/Caze/include/Caze/graphics/batchrenderer2D.hpp",
 		"/home/rahul/Development/c++/Caze/Caze-Core/main.cpp",
+		"/home/rahul/Development/c++/Caze/Caze-Core/src/graphics/buffers/buffer.cpp",
+		"/home/rahul/Development/c++/Caze/Caze-Core/src/graphics/buffers/vertexArray.cpp",
+		"/home/rahul/Development/c++/Caze/Caze-Core/src/graphics/buffers/indexBuffer.cpp",
+		"/home/rahul/Development/c++/Caze/include/Caze/graphics/renderable2d.hpp",
+		"/home/rahul/Development/c++/Caze/include/Caze/graphics/buffers/vertexArray.hpp",
+		"/home/rahul/Development/c++/Caze/include/Caze/graphics/buffers/buffer.hpp",
+		"/home/rahul/Development/c++/Caze/include/Caze/graphics/buffers/indexBuffer.hpp",
+		"/home/rahul/Development/c++/Caze/include/Caze/graphics/simple2drenderer.hpp",
+		"/home/rahul/Development/c++/Caze/Caze-Sandbox/main.cpp",
+		"/home/rahul/Development/c++/Caze/Scripts/sandbox.sh",
 		"/home/rahul/Development/c++/Caze/Caze.sublime-project",
 		"/home/rahul/Development/c++/Caze/Caze-core/main.cpp",
 		"/home/rahul/Development/c++/Caze/Dependencies/Caze/caze.hpp",
@@ -722,6 +716,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"debug",
 			"clr",
 			"header",
 			"hd",
@@ -747,44 +742,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "Scripts/build.sh",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2030,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								176,
-								176
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 23.0
@@ -815,7 +772,7 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
 	"output.exec":
 	{
 		"height": 124.0
@@ -825,7 +782,6 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "Debug",
-	"project": "Caze.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -866,7 +822,6 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -874,7 +829,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 244.0,
+	"side_bar_width": 251.0,
 	"status_bar_visible": false,
 	"template_settings":
 	{

@@ -27,7 +27,7 @@ function headerStart()
 function info()
 {
 	echo "[$(bnr 1 ${color[green]} "*")] $(bnr 1 ${color[white]} "$1")"
-	sleep 0.3
+	# sleep 0.3
 }
 
 function errorInfo()
@@ -45,6 +45,7 @@ function errorInfo()
 function headerEnd()
 {
 	clear
+	# echo ""
 }
 
 function createandcopy()
@@ -105,7 +106,7 @@ if [[ $1 == debug ]]; then
 
 	# build
 	headerStart "Compiling Source Code"
-	g++ -c ./build/target/*.cpp ./build/target/*.c -std=c++14 -m64 -g -Wall -I include/Caze -I include/vendor &> ./build/log/log.txt
+	g++ -c ./build/target/*.cpp ./build/target/*.c -std=c++14 -m64 -g -Wall -I Caze-Core/src -I Dependencies/vendor &> ./build/log/log.txt
 
 	if [ -s ./build/log/log.txt ]; then
 		headerEnd
@@ -129,11 +130,11 @@ if [[ $1 == debug ]]; then
 	info "Caze-Core"
 	headerEnd
 
-	if [ ! -d "build/bin/debug/include" ]; then
-		mkdir build/bin/debug/include
+	if [ ! -d "build/bin/debug/Dependencies" ]; then
+		mkdir build/bin/debug/Dependencies
 	fi
 
-	cp -r include/GLSL/ 'build/bin/debug/include/'
+	cp -r Dependencies/GLSL/ 'build/bin/debug/Dependencies/'
 
 	# Run
 	headerStart "Run"
@@ -164,7 +165,7 @@ elif [[ $1 == release ]]; then
 	headerStart "Building compiled files"
 	g++ -g ./build/target/*.o -o build/bin/release/Caze-Core -s -lglfw -lGL -lm -lX11 -lpthread -lXi -lXrandr -ldl
 	info "Caze-Core"
-	headerEnd
+	# headerEnd
 
 	if [ ! -d "build/bin/release/include" ]; then
 		mkdir build/bin/release/include
@@ -176,5 +177,5 @@ elif [[ $1 == release ]]; then
 	headerStart "Run"
 	info "./build/bin/release/Caze-Core"
 	./build/bin/release/Caze-Core
-	headerEnd
+	# headerEnd
 fi
