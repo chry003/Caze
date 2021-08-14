@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
 	mat4 ortho = mat4::orthographic(0.0f, 16.0f, 0.0f, 9.0f, -1.0f, 1.0f);
 
 
-	Shader shader("./include/GLSL/basic.vert", "./include/GLSL/basic.frag");
+	Shader shader("./Dependencies/GLSL/basic.vert", "./Dependencies/GLSL/basic.frag");
 	shader.enable();
 	shader.setUniformMat4("pr_matrix", ortho);
 	shader.setUniformMat4("ml_matrix", mat4::translation(vec3(4, 3, 0)));

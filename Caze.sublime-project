@@ -9,7 +9,7 @@
 		{
 			"name": "Debug",
 			"working_dir": "${project_path}",
-			"cmd": ["./Scripts/build.sh"],
+			"cmd": ["./Scripts/run.sh"],
 			"selector": "source.c++",
 			"shell": true
 		}
