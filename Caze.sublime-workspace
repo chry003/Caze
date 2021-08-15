@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"tar",
+				"target_link_libraries\tbuiltin"
+			],
+			[
 				"RENDER",
 				"RENDERER_MAX_SPRITES"
 			],
@@ -510,10 +514,6 @@
 			[
 				"k",
 				"K_RIGHT"
-			],
-			[
-				"ge",
-				"get_action_strength"
 			]
 		]
 	},
@@ -573,11 +573,17 @@
 	},
 	"file_history":
 	[
+		"/home/rahul/Development/c++/Caze/Caze.sublime-project",
+		"/home/rahul/Development/c++/Caze/Caze-Sandbox/main.cpp",
+		"/home/rahul/Development/c++/Caze/CMakeLists.txt",
+		"/home/rahul/Development/c++/asd",
+		"/home/rahul/Development/c++/Caze/Caze-Core/src/caze.hpp",
+		"/home/rahul/Development/c++/Caze/Caze-Core/main.cpp",
+		"/home/rahul/Development/c++/Caze/Caze-Core/cz.cpp",
 		"/home/rahul/Development/c++/Caze/Scripts/build.sh",
 		"/home/rahul/Development/c++/Caze/Scripts/countLinesOfCode.sh",
 		"/home/rahul/Development/c++/Caze/Caze-Core/src/graphics/batchrenderer2D.cpp",
 		"/home/rahul/Development/c++/Caze/include/Caze/graphics/batchrenderer2D.hpp",
-		"/home/rahul/Development/c++/Caze/Caze-Core/main.cpp",
 		"/home/rahul/Development/c++/Caze/Caze-Core/src/graphics/buffers/buffer.cpp",
 		"/home/rahul/Development/c++/Caze/Caze-Core/src/graphics/buffers/vertexArray.cpp",
 		"/home/rahul/Development/c++/Caze/Caze-Core/src/graphics/buffers/indexBuffer.cpp",
@@ -586,9 +592,7 @@
 		"/home/rahul/Development/c++/Caze/include/Caze/graphics/buffers/buffer.hpp",
 		"/home/rahul/Development/c++/Caze/include/Caze/graphics/buffers/indexBuffer.hpp",
 		"/home/rahul/Development/c++/Caze/include/Caze/graphics/simple2drenderer.hpp",
-		"/home/rahul/Development/c++/Caze/Caze-Sandbox/main.cpp",
 		"/home/rahul/Development/c++/Caze/Scripts/sandbox.sh",
-		"/home/rahul/Development/c++/Caze/Caze.sublime-project",
 		"/home/rahul/Development/c++/Caze/Caze-core/main.cpp",
 		"/home/rahul/Development/c++/Caze/Dependencies/Caze/caze.hpp",
 		"/home/rahul/Development/c++/Caze/scripts/CazeCoreDebug.sh",
@@ -696,9 +700,7 @@
 		"/home/rahul/Documents/heart.svg",
 		"/home/rahul/Development/python-game/pylappy-bird/flappy-bird.py",
 		"/home/rahul/Development/python/pypong/main.py",
-		"/home/rahul/Development/python/pypong/pypong.py",
-		"/home/rahul/Development/rust/test-game/Cargo.toml",
-		"/home/rahul/Development/rust/learnopengl/Cargo.toml"
+		"/home/rahul/Development/python/pypong/pypong.py"
 	],
 	"find":
 	{
@@ -716,6 +718,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"widht",
+			"size.x",
+			"size.y",
+			"Caze-Core/src",
+			"classes_c",
+			"classes_cxx",
 			"debug",
 			"clr",
 			"header",
@@ -759,11 +767,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -772,10 +787,10 @@
 			1.0
 		]
 	},
-	"menu_visible": false,
+	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 124.0
+		"height": 181.0
 	},
 	"output.find_results":
 	{
